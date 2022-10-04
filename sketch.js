@@ -28,7 +28,7 @@ function mountain(){
   fill(153, 223, 255)
   triangle(-80, 475, 64, 36, 260, 475);
   triangle(300, 475, 444, 36, 640, 475);
-  fill(204, 239, 255);  
+  fill(204, 239, 255);
   triangle(-80, 475, 64, 36, 180, 475);
   triangle(300, 475, 444, 36, 560, 475);
   pop();
@@ -48,7 +48,7 @@ function iceberg(){
 }
 function penguBody(){
   push();
-  
+
   strokeWeight(2);
   stroke(30);
   fill(50,50,55)
@@ -75,7 +75,7 @@ function penguFace(){
 //   rotate(5 / 0.1);
 //   noStroke();
 //   fill(240, 240, 240)
-  
+
 //   ellipse(100, 225, 30, 22.5);
 //   ellipse(192, 250, 30, 22.5);
 //   fill(255, 204, 0)
@@ -112,11 +112,11 @@ function guntherWeh(guntherTalk){
   }
   x -= speed;
   pop();
-  
+
   if (count<35){
     count++
   }else if (count==35){count=8};
-  
+
   micLevel = mic.getLevel();
   if (mouseX>120){
     mouseX=120;
@@ -147,7 +147,7 @@ function guntherWeh(guntherTalk){
   triangle(150, 280, 140, 250, 60, 260);
   fill(255, 180, 0)
   triangle(150, 280, 130, 290, 60, y);
-  
+
   if (x < -20){
     y = 259
   }
@@ -159,14 +159,14 @@ function guntherWeh(guntherTalk){
 
 
 
-  
+
 // class Triangle{
 //   constructor(_xpos, _ypos,_rot,_size){
 //     this.xpos = _xpos;
 //     this.ypos = _ypos;
 //     this.rot = _rot;
 //     this.size = _size;
-    
+
 //   }
 
 // display(){
